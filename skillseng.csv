@@ -1,0 +1,37 @@
+Branch,Cost,Heuristics,Skills,Programming_Languages,Key_Technologies
+Computer Science,200000-1200000,9,Software development;Data analysis;Networking;Cybersecurity;Cloud computing;Problem-solving;Teamwork;Communication;Python;Java;C;C++;JavaScript;SQL;,AWS;Azure;Google Cloud;Git
+AI/ML,1000-500000,10,Data preprocessing;Feature engineering;ML algorithms;Deep learning;NLP;Computer vision;Big data;Model deployment;Python;Java;R;C++;Prolog,TensorFlow;PyTorch;scikit-learn;Hadoop;Spark
+Mechanical,400000-1000000,8,Mathematics;Analytical skills;Technical drawing;CAD;Thermodynamics;Manufacturing processes;Simulation;Sustainability;MATLAB;Python,AutoCAD;SolidWorks;ANSYS;Simulink;3D Printing
+Electronics,72000-300000,8,Circuit analysis;Embedded systems;Signal processing;VLSI;PCB design;IoT hardware;C;C++;Python;Verilog;VHDL,SPICE;MATLAB
+Electrical,300000-800000,7,Circuit theory;Power systems;Control systems;Renewable energy;Instrumentation;C;C++;MATLAB;Python;Verilog;VHDL;Smart Grids;Power Electronics
+Civil,250000-700000,7,Structural analysis;Construction management;Geotechnical engineering;Surveying;Sustainable infrastructure;BIM;VBA;Python;C#;AutoLISP;Dynamo;AutoCAD;Revit
+Biotechnology,300000-900000,8,Genetic engineering;Bioinformatics;Bioprocess engineering;Medical imaging;Diagnostics;Python;R;MATLAB;C;C++,CRISPR;Bioinformatics Pipelines
+Biomedical,400000-1100000,8,Medical imaging;Biomechanics;Prosthetics;AI diagnostics;Bioinformatics;Python;R;MATLAB;C;C++,Medical Devices;AI Diagnostics
+Mechatronics,400000-1200000,9,Mechanical-electrical integration;Robotics design;Embedded systems;PLC programming;Computer vision;C;C++;Python;MATLAB,PLC;ROS;Industrial Robotics
+Robotics,500000-1500000,9,Autonomous systems;Computer vision;Sensor integration;Human-robot interaction;AI integration;C;C++;Python;MATLAB,ROS;Computer Vision;AI Integration
+Environmental Engineering,200000-700000,7,Environmental impact assessment;Sustainable design;Pollution control;Waste management;Climate modeling;MATLAB;Python;R,GIS;AutoCAD Civil 3D;SWMM;HYSPLIT
+Information Technology,300000-1000000,9,System administration;Network security;Database management;Cloud architecture;DevOps;Scripting;Project management;Python;Java;C#;JavaScript;SQL;PowerShell,Docker;Kubernetes;AWS;Azure;Jenkins
+Data Science,150000-600000,10,Data cleaning;Statistical modeling;Machine learning;Visualization;Big data analysis;Business intelligence,Python;R;SQL;Scala,Tableau;Power BI;TensorFlow;Hadoop;Spark
+Cybersecurity,250000-900000,9,Threat analysis;Penetration testing;Encryption;Risk management;Security protocols;Incident response,Python;C;C++;JavaScript;Bash,Wireshark;Metasploit;Kali Linux;Splunk;Nmap
+Game Development,200000-800000,8,Game physics;Graphics programming;AI for games;Multiplayer systems;Animation logic,C++;C#;Python;Lua,Unity;Unreal Engine;Blender;OpenGL;DirectX
+Chemical Engineering,350000-900000,7,Process design;Thermodynamics;Fluid mechanics;Reaction engineering;Safety protocols;Environmental compliance,MATLAB;Python;C,ASPEN Plus;HYSYS;COMSOL;ChemCAD
+Aerospace Engineering,500000-1500000,8,Aerodynamics;Propulsion;Structural analysis;Avionics;Control systems;Flight mechanics,MATLAB;Python;C++;Fortran,ANSYS Fluent;CATIA;Simulink;XFOIL
+Marine Engineering,400000-1000000,7,Ship design;Marine propulsion;Fluid dynamics;Engine maintenance;Hydrodynamics,MATLAB;Python;C,MAXSURF;ShipConstructor;ANSYS AQWA
+Industrial Engineering,300000-800000,8,Operations research;Lean manufacturing;Supply chain optimization;Process improvement;Quality control,Python;R;VBA;SQL,Arena Simulation;SAP ERP;Minitab;AutoCAD
+Metallurgical Engineering,250000-700000,6,Material testing;Thermal treatment;Failure analysis;Metallography;Alloy design,MATLAB;Python;C,Thermo-Calc;JMatPro;ANSYS;SolidWorks
+Automobile Engineering,300000-1000000,8,Vehicle dynamics;Engine design;Transmission systems;Emission control;CAD modeling,MATLAB;C;C++;Python,CATIA;SolidWorks;ANSYS;AutoCAD;AVL Cruise
+Petroleum Engineering,500000-1200000,6,Reservoir simulation;Drilling technology;Production optimization;Petrophysics;Risk analysis,MATLAB;Python;Fortran,ECLIPSE;Petrel;CMG;Drillbench
+Mining Engineering,200000-700000,5,Mine planning;Rock mechanics;Drilling & blasting;Ventilation systems;Mineral economics,MATLAB;Python,Surpac;MineScape;Whittle;AutoCAD Mining
+Agricultural Engineering,150000-600000,6,Irrigation systems;Farm machinery;Soil mechanics;Food processing;Sustainability,MATLAB;Python;R,ANSYS;AutoCAD;GIS;Agisoft Metashape
+Instrumentation Engineering,300000-800000,7,Sensor calibration;Control systems;Signal conditioning;Industrial automation;PLC programming,C;C++;Python;MATLAB,LabVIEW;Simulink;SCADA;DCS
+Printing Engineering,150000-500000,5,Prepress operations;Color management;Print quality control;Digital printing;Offset and flexography;Packaging technology,Python;VBA;G-code,Adobe InDesign;CorelDRAW;Esko;Heidelberg Prinect;AutoCAD
+Textile Engineering,200000-700000,6,Fiber science;Yarn and fabric manufacturing;Dyeing and finishing;Textile machinery;Quality control,MATLAB;Python;R,Uster Tester;CAD for textiles;Spectrophotometers
+Plastic Engineering,150000-600000,5,Polymer chemistry;Injection molding;Extrusion processes;Material selection;Product design,MATLAB;Python,Moldflow;SolidWorks;AutoCAD;ANSYS Polyflow
+Packaging Technology,200000-500000,6,Material science;Structural packaging;Print & label technology;Logistics and compliance;Sustainability,Python;VBA;G-code,Esko ArtiosCAD;NiceLabel;AutoCAD;BarTender
+Foundry and Forge Technology,250000-700000,5,Casting processes;Heat treatment;Pattern design;Metallurgical analysis;Defect analysis,Python;MATLAB;C,ProCAST;MAGMA;AutoCAST;SolidWorks
+Production Engineering,300000-900000,7,Manufacturing systems;Industrial automation;Tool design;CNC operations;Production planning,MATLAB;Python;C,CAMWorks;AutoCAD;SolidCAM;SAP Production Planning
+Cyber-Physical Systems,200000-900000,9,Embedded systems;Sensor integration;Control theory;Real-time systems;IoT communication,C;C++;Python;MATLAB,Raspberry Pi;Arduino;ROS;Contiki OS
+Cloud Computing,150000-800000,10,Cloud architecture;Virtualization;Containerization;DevOps practices;Scalability & security,Python;Java;Go;Shell,AWS;Azure;Docker;Kubernetes;Terraform
+Blockchain Technology,100000-600000,8,Distributed systems;Consensus mechanisms;Smart contracts;Cryptography;Web3 development,Solidity;JavaScript;Go;Python,Ethereum;Hyperledger;Ganache;Metamask
+Human-Computer Interaction,120000-500000,7,UX design;Interaction design;Cognitive science;Accessibility;User testing,JavaScript;Python;R;HTML/CSS,Figma;Adobe XD;Eye-tracking Tools;UsabilityHub
+Quantum Computing,250000-1000000,8,Quantum algorithms;Qubits and gates;Linear algebra;Quantum error correction;Quantum cryptography,Qiskit (Python);C++;Q#,IBM Q;Microsoft Azure Quantum;QuTiP;Cirq

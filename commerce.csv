@@ -1,0 +1,31 @@
+Rank,College,City,State,Approval,Cutoff,First_Year,First_Year_Fees,Average Package,Highest Package,Rating,Best In,National Rank
+1,Loyola College,Chennai, Tamil Nadu,UGC,-1,-1,84700,634000,2250000,4.3, Infrastructure,6
+2,St. Xavier's College,Mumbai, Maharashtra,UGC,-1,-1,75000,600000,2100000,4.1, Academics,29
+3,Madras Christian College - [MCC],Chennai, Tamil Nadu,UGC,-1,-1,83760,231200,300000,4.3, Social Life,10
+4,Christ University (Bangalore Central Campus),Bangalore, Karnataka,UGC NBA,-1,-1,158000,-1,2000000,4.2, Infrastructure,11
+5,RA Podar College of Commerce and Economics,Mumbai, Maharashtra,-1,-1,-1,75100,295000,-1,3.9, Academics,11
+6,Symbiosis College of Arts and Commerce,Pune, Maharashtra,-1,-1,-1,19100,-1,-1,4.2, Social Life,38
+7,HR College of Commerce and Economics,Mumbai, Maharashtra,-1,-1,-1,18162,500000,1000000,4, Placements,20
+8,St. Joseph's College of Commerce - [SJCC],Bangalore, Karnataka,UGC ACCA,-1,-1,137000,535000,3000000,4.1, Social Life,13
+9,K J Somaiya College of Arts & Commerce - [KJSAC],Mumbai, Maharashtra,-1,-1,-1,17075,-1,-1,4.1, Infrastructure,20
+10,Mount Carmel College - [MCC],Bangalore, Karnataka,UGC,-1,-1,123400,485990,2150000,4.2, Social Life,22
+11,KPB Hinduja College of Commerce - [KPB],Mumbai, Maharashtra,-1,-1,-1,9236,-1,-1,3.9, Faculty,85
+12,Kristu Jayanti College - [KJC],Bangalore, Karnataka,AICTE ACCA,-1,-1,140000,650000,2700000,4.1, Academics,21
+13,Mithibai College of Arts,Mumbai, Maharashtra,AICTE UGC,-1,-1,55000,500000,1288000,4.1, Social Life,15
+14,Sacred Heart College - [SHC],Ernakulam, Kerala,AICTE,-1,-1,55566,450000,800000,4.2, Social Life,31
+15,Brihan Maharashtra College of Commerce - [BMCC],Pune, Maharashtra,UGC,-1,-1,69955,500000,805000,4.2, Academics,27
+16,Loyola Academy Degree and PG College,Secunderabad, Telangana,UGC,-1,-1,14000,350000,600000,4, Infrastructure,80
+17,St Ann's College for Women,Hyderabad, Telangana,AICTE,-1,-1,14000,500000,1150000,4, Faculty,61
+18,Women's Christian College - [WCC],Chennai, Tamil Nadu,-1,-1,-1,101450,800000,1200000,3.8, Infrastructure,28
+19,Mulund College of Commerce,Mumbai, Maharashtra,-1,-1,-1,55815,300000,800000,3.8, Faculty,31
+20,M.O.P. Vaishnav College for Women,Chennai, Tamil Nadu,-1,-1,-1,16000,303086,700000,4.2, Social Life,51
+21,Sri Krishna Arts and Science College,Coimbatore, Tamil Nadu,-1,-1,-1,70000,350000,1600000,4.2, Infrastructure,65
+22,B.K Birla College Of Arts Science & Commerce,Thane, Maharashtra,UGC,-1,-1,22200,2500000,10000000,3.8, Infrastructure,39
+23,JD Birla Institute - [JDBI],Kolkata, West Bengal,UGC,-1,-1,162350,350000,700000,3.8, Academics,33
+24,Badruka College of Commerce and Arts - [BCCA],Hyderabad, Telangana,-1,-1,-1,32000,700000,1800000,4.3, Social Life,106
+25,Sri Ramakrishna College of Arts and Science - [SRCAS],Coimbatore, Tamil Nadu,-1,-1,-1,62000,450000,1200000,4.1, Social Life,78
+26,Jain University,Bangalore, Karnataka,-1,-1,-1,235000,620000,4200000,3.9, Academics,41
+27,St Joseph's Degree and PG College,Hyderabad, Telangana,UGC,-1,-1,66000,316292,550000,3.9, Faculty,60
+28,Kelkar Education Trust's V.G. Vaze College,Mumbai, Maharashtra,-1,-1,-1,20366,650000,-1,4.1, Social Life,42
+29,Dr. SNS Rajalakshmi College of Arts and Science,Coimbatore, Tamil Nadu,-1,-1,-1,51000,-1,1200000,4.1, Infrastructure,81
+30,Indian Institute of Management and Commerce - [IIMC],Hyderabad, Telangana,-1,-1,-1,18000,200000,300000,3.9, Faculty,62

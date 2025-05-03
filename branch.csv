@@ -1,0 +1,151 @@
+Branch,Cost,Heuristic
+Computer Science,12,9
+AI/ML,14,11
+Mechanical,10,7
+Electronics & Communication,10,8
+Electrical,10,7
+Civil,9,6
+Biotechnology,12,8
+Biomedical,12,7
+Mechatronics,12,8
+Robotics,14,10
+Environmental Engineering,10,6
+Information Technology,12,9
+Data Science,14,11
+Cybersecurity,12,9
+Game Development,12,8
+Chemical Engineering,10,7
+Aerospace Engineering,12,9
+Marine Engineering,10,7
+Industrial Engineering,10,7
+Metallurgical Engineering,10,6
+Automobile Engineering,10,7
+Petroleum Engineering,12,10
+Mining Engineering,10,6
+Agricultural Engineering,10,6
+Instrumentation Engineering,10,7
+Printing Engineering,8,5
+Textile Engineering,8,5
+Plastic Engineering,8,5
+Packaging Technology,8,5
+Foundry and Forge Technology,8,5
+Production Engineering,10,7
+Cyber-Physical Systems,12,9
+Cloud Computing,12,9
+Blockchain Technology,12,9
+Human-Computer Interaction,12,9
+Quantum Computing,14,11
+BA English,8,7
+BA History,7,6
+BA Political Science,9,8
+BA Economics,10,9
+BA Psychology,9,8
+BA Sociology,8,7
+BA Geography,8,7
+BA Philosophy,7,6
+BA International Relations,9,8
+BFA (Fine Arts),8,7
+B.Des (Design),10,9
+BBA,9,8
+BJMC (Journalism),9,8
+BA LLB,10,9
+BSW (Social Work),8,7
+BHM (Hotel Management),9,8
+BPA (Performing Arts),8,7
+BA Animation,9,8
+BA Event Management,9,8
+Accounting,8,7
+Finance,9,8
+Tax Consultancy,8,7
+Management Consulting,10,9
+Digital Marketing,10,9
+E-commerce Management,9,8
+Data Analytics,10,9
+Business Analytics,10,9
+Supply Chain Management,9,8
+Actuary,9,8
+Cost Accounting,8,7
+Sales Management,8,7
+Hotel Management,8,7
+Travel & Tourism Management,7,6
+Real Estate Management,8,7
+Event Management,8,7
+Business Development,9,8
+Research Analysis,9,8
+Graphic Designing,8,7
+Insurance,8,7
+B.Com,9,8
+BBA/BBM,9,8
+CA (Chartered Accountant),9,8
+CS (Company Secretary),8,7
+MBA (Finance/Marketing/HR),10,9
+BMS (Bachelor of Management Studies),9,8
+BBA (Digital Marketing),10,9
+BBA (E-Commerce),9,8
+B.Sc (Actuarial Science),9,8
+Diploma in Digital Marketing,10,9
+Diploma in Banking & Finance,9,8
+Diploma in Event Management,8,7
+Diploma in Hotel Management,8,7
+MBBS (Bachelor of Medicine Bachelor of Surgery),20,6
+MD (Doctor of Medicine),25,7
+MS (Master of Surgery),30,8
+DM (Doctorate of Medicine),35,10
+MCh (Magister Chirurgiae),35,10
+BDS (Bachelor of Dental Surgery),15,4
+BPT (Bachelor of Physiotherapy),10,2
+BAMS (Bachelor of Ayurvedic Medicine),5,1
+BHMS (Bachelor of Homeopathic Medicine),5,1
+BSc Nursing,5,1
+Doctor (Cardiologist),35,10
+Doctor (Dermatologist),30,8
+Doctor (Radiologist),30,8
+Doctor (Pediatrician),25,7
+Doctor (Neurologist),35,10
+Doctor (Psychiatrist),25,7
+Doctor (General Surgeon),30,8
+Doctor (Oncologist),35,10
+Doctor (Orthopedic Surgeon),35,10
+Doctor (Ophthalmologist),30,8
+Doctor (Gynecologist),30,8
+Doctor (Anesthesiologist),30,8
+Doctor (Pathologist),25,7
+Doctor (Urologist),30,8
+Doctor (ENT Specialist),25,7
+Doctor (Gastroenterologist),30,8
+Doctor (Pulmonologist),25,7
+Doctor (Nephrologist),30,8
+Doctor (Endocrinologist),25,7
+Doctor (Plastic Surgeon),35,10
+Doctor (Hematologist),30,8
+Doctor (Geriatrician),20,6
+Doctor (Sports Medicine),25,7
+Doctor (Geneticist),30,8
+Doctor (Forensic Pathologist),25,7
+Doctor (Emergency Medicine Specialist),30,8
+Doctor (Medical Genetic Counselor),10,2
+Doctor (Occupational Health Specialist),15,4
+Doctor (Reproductive Endocrinologist),30,8
+Doctor (Clinical Microbiologist),20,6
+Doctor (Nuclear Medicine Physician),30,8
+Doctor (Hospital Administrator),15,4
+Doctor (Medical Illustrator),10,2
+Doctor (Clinical Neurophysiologist),30,8
+Doctor (Biomedical Data Scientist),20,6
+Doctor (Rehabilitation Physician - PM&R),25,7
+Doctor (Aesthetic Medicine Specialist),25,7
+Doctor (Tropical Disease Specialist),20,6
+Doctor (Clinical Bioinformatician),20,6
+Doctor (Health Policy Analyst),15,4
+Doctor (Healthcare Quality Officer),10,2
+Doctor (Medical VR/AR Developer),15,4
+Doctor (Lifestyle Medicine Specialist),20,6
+Doctor (Travel Medicine Specialist),15,4
+Doctor (Bioethics Consultant),10,2
+Doctor (Clinical Trials Data Manager),15,4
+Doctor (Radiation Safety Officer),20,6
+Doctor (Cryopreservation Specialist),20,6
+Doctor (Healthcare UX Designer),10,2
+Doctor (Health Communications Specialist),10,2
+Doctor (Digital Therapeutics Expert),20,6
+Doctor (Precision Oncologist),35,10
