@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Career Recommendation Dashboard</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f9;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .error {
+            color: red;
+            font-weight: bold;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #4a90e2;
+            color: white;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        .loader {
+            border: 8px solid #f3f3f3;
+            border-top: 8px solid #4a90e2;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            animation: spin 0.8s linear infinite;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 1001;
+            display: none;
+        }
+        .loading-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            z-index: 1000;
+            display: none;
+        }
+        @keyframes spin {
+            0% { transform: translate(-50%, -50%) rotate(0deg); }
+            100% { transform: translate(-50%, -50%) rotate(360deg); }
+        }
+        .career-path {
+            max-width: 100%;
+            word-wrap: break-word;
+        }
+    </style>
+</head>
+<body>
+    <!-- Loading Overlay and Spinner -->
+    <div id="loading-overlay" class="loading-overlay"></div>
+    <div id="loading" class="loader"></div>
+
+    <div class="container">
+        <h1 class="text-3xl font-bold text-center mb-6">Welcome to Site</h1>
+        
+        <!-- Input Form -->
+        <form id="recommend-form" class="bg-white p-6 rounded-lg shadow-md mb-6">
+            <div class="mb-4">
+                <label class="block text-sm font-medium text-gray-700">Streams (comma-separated, e.g., engineering,commerce)</label>
+                <input type="text" name="streams" class="mt-1 block w-full p-2 border rounded" placeholder="e.g., engineering,commerce" required>
+            </div>
+            <div class="mb-4">
+                <label class="block text-sm font-medium text-gray-700">Preferred Branches (comma-separated, max 5)</label>
+                <input type="text" name="branches" class="mt-1 block w-full p-2 border rounded" placeholder="e.g., AI/ML,Accounting" required>
+            </div>
+            <div class="mb-4">
+                <label class="block text-sm font-medium text-gray-700">Your Location</label>
+                <input type="text" name="location" class="mt-1 block w-full p-2 border rounded" placeholder="e.g., Mumbai" required>
+            </div>
+            <div class="mb-4">
+                <label class="block text-sm font-medium text-gray-700">Family Income (INR)</label>
+                <input type="number" name="family_income" class="mt-1 block w-full p-2 border rounded" required>
+            </div>
+            <div class="mb-4">
+                <label class="block text-sm font-medium text-gray-700">Fee Flexibility Scale (1-5)</label>
+                <input type="number" name="inc_scale" min="1" max="5" class="mt-1 block w-full p-2 border rounded" required>
+            </div>
+            <div class="mb-4">
+                <label class="block text-sm font-medium text-gray-700">Location Flexibility Scale (1-5)</label>
+                <input type="number" name="pref_scale" min="1" max="5" class="mt-1 block w-full p-2 border rounded" required>
+            </div>
+            <div class="mb-4">
+                <label class="block text-sm font-medium text-gray-700">Rank Flexibility Scale (1-5)</label>
+                <input type="number" name="rank_scale" min="1" max="5" class="mt-1 block w-full p-2 border rounded" required>
+            </div>
+            <div class="mb-4">
+                <label class="block text-sm font-medium text-gray-700">Rating Flexibility Scale (1-5)</label>
+                <input type="number" name="rating_scale" min="1" max="5" class="mt-1 block w-full p-2 border rounded" required>
+            </div>
+            <div class="mb-4">
+                <label class="block text-sm font-medium text-gray-700">Preferred Locations (comma-separated)</label>
+                <input type="text" name="preferred_locations" class="mt-1 block w-full p-2 border rounded" placeholder="e.g., Delhi,Mumbai" required>
+            </div>
+            <button type="submit" class="w-full bg-blue-500 text-white p-2 rounded hover:bg-blue-600">Get Recommendations</button>
+        </form>
+
+        <!-- Results Section -->
+        <div id="results" class="hidden">
+            <h2 class="text-2xl font-bold mb-4">Recommended Paths</h2>
+            <div id="career-paths" class="bg-gray-100 p-4 rounded-lg mb-6">
+                <h3 class="text-xl font-semibold mb-2">Top Career Paths</h3>
+                <ul id="paths-list" class="list-decimal pl-5"></ul>
+            </div>
+            <div id="error" class="error hidden"></div>
+            <h3 class="text-xl font-semibold mb-2">Top Colleges</h3>
+            <table id="colleges-table">
+                <thead>
+                    <tr>
+                        <th>College</th>
+                        <th>Cost</th>
+                        <th>Heuristic</th>
+                        <th>Total</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+            <h3 class="text-xl font-semibold mb-2 mt-4">Top Skills</h3>
+            <table id="skills-table">
+                <thead>
+                    <tr>
+                        <th>Degree/Skill</th>
+                        <th>Cost</th>
+                        <th>Heuristic</th>
+                        <th>Acquisition Cost</th>
+                        <th>Total</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+            <h3 class="text-xl font-semibold mb-2 mt-4">Skills Details</h3>
+            <table id="skills-details-table">
+                <thead>
+                    <tr>
+                        <th>Branch</th>
+                        <th>Skills</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+            <p class="mt-4"><strong>Total Cost:</strong> <span id="total-cost"></span></p>
+            <p class="mt-2"><strong>Preferred Branches:</strong> <span id="preferred-branches"></span></p>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById('recommend-form').addEventListener('submit', async (e) => {
+            e.preventDefault();
+            const formData = new FormData(e.target);
+            
+            // Validate inputs
+            const incScale = parseFloat(formData.get('inc_scale'));
+            const prefScale = parseFloat(formData.get('pref_scale'));
+            const rankScale = parseFloat(formData.get('rank_scale'));
+            const ratingScale = parseFloat(formData.get('rating_scale'));
+            if ([incScale, prefScale, rankScale, ratingScale].some(scale => isNaN(scale) || scale < 1 || scale > 5)) {
+                showError('Flexibility scales must be between 1 and 5.');
+                return;
+            }
+
+            // Show loading spinner and overlay
+            document.getElementById('loading').style.display = 'block';
+            document.getElementById('loading-overlay').style.display = 'block';
+            document.getElementById('results').classList.add('hidden');
+            document.getElementById('error').classList.add('hidden');
+
+            try {
+                const response = await fetch('/recommend', {
+                    method: 'POST',
+                    body: formData
+                });
+                const result = await response.json();
+                console.log('JSON Response:', JSON.stringify(result, null, 2));
+
+                // Hide loading spinner and overlay
+                document.getElementById('loading').style.display = 'none';
+                document.getElementById('loading-overlay').style.display = 'none';
+
+                if (response.ok) {
+                    displayResults(result);
+                } else {
+                    console.error('Server error:', result.error);
+                    showError(result.error || 'An error occurred.');
+                }
+            } catch (error) {
+                console.error('Fetch error:', error);
+                document.getElementById('loading').style.display = 'none';
+                document.getElementById('loading-overlay').style.display = 'none';
+                showError('Network error: ' + error.message);
+            }
+        });
+
+        function showError(message) {
+            const errorDiv = document.getElementById('error');
+            errorDiv.textContent = message;
+            errorDiv.classList.remove('hidden');
+            document.getElementById('results').classList.add('hidden');
+        }
+
+        function displayResults(data) {
+            try {
+                console.log('Processing data:', data);
+                const resultsDiv = document.getElementById('results');
+                const errorDiv = document.getElementById('error');
+                errorDiv.classList.add('hidden');
+                resultsDiv.classList.remove('hidden');
+
+                // Display career paths
+                const pathsList = document.getElementById('paths-list');
+                pathsList.innerHTML = '';
+                console.log('Career paths:', data.career_paths);
+                if (!data.career_paths || !Array.isArray(data.career_paths) || data.career_paths.length === 0) {
+                    console.warn('No valid career paths received:', data.career_paths);
+                    const li = document.createElement('li');
+                    li.className = 'mb-2 career-path';
+                    li.textContent = 'No career paths available.';
+                    pathsList.appendChild(li);
+                } else {
+                    data.career_paths.forEach((path, index) => {
+                        console.log(`Rendering path ${index + 1}:`, path);
+                        const li = document.createElement('li');
+                        li.className = 'mb-2 career-path';
+                        const skillText = path.skill && path.skill.length > 50 ? path.skill.substring(0, 47) + '...' : path.skill || 'N/A';
+                        li.innerHTML = `
+                            <span class="font-medium">Path ${index + 1}:</span> 
+                            ${path.stream || 'N/A'} → ${path.branch || 'N/A'} → ${path.college || 'N/A'} → ${skillText}
+                            <br><span class="text-sm text-gray-600">Total Path Cost: ${(path.total_cost || 0).toFixed(4)}</span>
+                        `;
+                        pathsList.appendChild(li);
+                    });
+                }
+
+                // Populate colleges table
+                const collegesTbody = document.querySelector('#colleges-table tbody');
+                collegesTbody.innerHTML = '';
+                if (data.colleges && Array.isArray(data.colleges)) {
+                    data.colleges.forEach(college => {
+                        const row = document.createElement('tr');
+                        row.innerHTML = `
+                            <td>${college.College || 'N/A'}</td>
+                            <td>${(college.Cost || 0).toFixed(4)}</td>
+                            <td>${(college.Heuristic || 0).toFixed(4)}</td>
+                            <td>${(college.Total || 0).toFixed(4)}</td>
+                        `;
+                        collegesTbody.appendChild(row);
+                    });
+                } else {
+                    console.warn('No valid colleges data:', data.colleges);
+                }
+
+                // Populate skills table
+                const skillsTbody = document.querySelector('#skills-table tbody');
+                skillsTbody.innerHTML = '';
+                if (data.skills && Array.isArray(data.skills)) {
+                    data.skills.forEach(skill => {
+                        const row = document.createElement('tr');
+                        row.innerHTML = `
+                            <td>${skill['Degree/Skill'] || 'N/A'}</td>
+                            <td>${(skill.Cost || 0).toFixed(4)}</td>
+                            <td>${(skill.Heuristic || 0).toFixed(4)}</td>
+                            <td>${(skill.Acquisition_Cost_INR || 0).toFixed(2)}</td>
+                            <td>${(skill.Total || 0).toFixed(4)}</td>
+                        `;
+                        skillsTbody.appendChild(row);
+                    });
+                } else {
+                    console.warn('No valid skills data:', data.skills);
+                }
+
+                // Populate skills details table
+                const skillsDetailsTbody = document.querySelector('#skills-details-table tbody');
+                skillsDetailsTbody.innerHTML = '';
+                if (data.skills && Array.isArray(data.skills)) {
+                    data.skills.forEach(skill => {
+                        const row = document.createElement('tr');
+                        row.innerHTML = `
+                            <td>${skill['Degree/Skill'] || 'N/A'}</td>
+                            <td>${skill.Skills || 'N/A'}</td>
+                        `;
+                        skillsDetailsTbody.appendChild(row);
+                    });
+                } else {
+                    console.warn('No valid skills details data:', data.skills);
+                }
+
+                // Display total cost and branches
+                document.getElementById('total-cost').textContent = (data.total_cost || 0).toFixed(2) + (data.total_cost > 100 ? ' INR' : '');
+                document.getElementById('preferred-branches').textContent = data.preferred_branches && Array.isArray(data.preferred_branches) ? data.preferred_branches.join(', ') : 'N/A';
+            } catch (error) {
+                console.error('Display error:', error);
+                showError('Error displaying results: ' + error.message);
+            }
+        }
+    </script>
+</body>
+</html>
