@@ -274,7 +274,7 @@ logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %
 logger = logging.getLogger(__name__)
 
 # Dataset paths
-DATA_PATH = "careerpeek.ai/data/"
+DATA_PATH = "careerpeek.ai/careerpeek.ai/data/"
 
 stream_datasets = {
     'arts': {'college': f'{DATA_PATH}Arts.csv', 'skills': f'{DATA_PATH}skillsarts.csv'},
