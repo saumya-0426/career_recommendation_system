@@ -2,4 +2,7 @@ Flask
 gunicorn
 pandas  # if you use CSV files
 numpy  # if you use CSV files
+geopy
+scikit-learn
+
 
