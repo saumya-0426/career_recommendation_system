@@ -1,51 +1,51 @@
-Rank,college,location,approvals,Exam,Cutoff,First_Year_Fees,Average_Package,Highest_Package,Rating,Best In,National Rank
-1,Christian Medical College - [CMC],Vellore Tamil Nadu,INC MCI,NEET,758,84330,430000,1000000,4.4, Faculty,3
-2,Kasturba Medical College - [KMC],Manipal Karnataka,MCI,NEET,37269,141770,890000,1560000,4.4, Infrastructure,12
-3,Sri Ramachandra Institute of Higher Education and Research,Chennai Tamil Nadu,UGC,-1,-1,100000,2000000,7000000,3.9, Infrastructure,20
-4,St John's Medical College,Bangalore Karnataka,MCI,-1,-1,810535,480000,2200000,4.3, Infrastructure,22
-5,Jamia Hamdard University,New Delhi Delhi NCR,AICTE MCI UGC,-1,-1,194000,-1,3100000,4.2, Academics,37
-6,Kasturba Medical College - [KMC],Mangalore Karnataka,MCI,-1,-1,155960,840000,1640000,4.3, Academics,30
-7,JSS Medical College and Hospital - [JSSMCH],Mysore Karnataka,NBA,NEET,63111,1986400,-1,-1,4, Faculty,39
-8,Christian Medical College - [CMC],Ludhiana Punjab,MCI,NEET,46034,660000,-1,-1,4.1, Academics,31
-9,Dr DY Patil Vidyapeeth - [DPU],Pune Maharashtra,AICTE UGC MHRD AIU,-1,-1,2700000,300000,350000,3.8, Social Life,11
-10,Siksha 'O' Anusandhan University - [SOA],Bhubaneswar Odisha,AICTE MCI ICAR UGC NBA,-1,-1,2000000,500000,4600000,4.3, Academics,21
-11,SRM Institute of Science and Technology - [SRMIST],Chennai Tamil Nadu,UGC,-1,-1,175000,660000,5500000,4, Infrastructure,18
-12,Dayanand Medical College and Hospital - [DMCH],Ludhiana Punjab,MCI,NEET,51800,445300,-1,-1,4.2, Faculty,29
-13,Saveetha Medical College,Chennai Tamil Nadu,MCI,-1,-1,2525000,-1,-1,4.2, Infrastructure,46
-14,Ramaiah Medical College,Bangalore Karnataka,MCI,NEET,14557,2500000,-1,-1,4.3, Faculty,26
-15,Regional Institute of Medical Sciences,Imphal Manipur,MCI,NEET,25001,17700,-1,-1,3.7, Academics,95
-16,Kalinga Institute of Industrial Technology - [KIIT],Bhubaneswar Odisha,DCI AICTE INC MCI BCI,NEET,273827,149820,850000,5300000,4.2, Infrastructure,25
-17,Bangalore Medical College and Research Institute - [BMCRI],Bangalore Karnataka,MCI,NEET,1412,70200,-1,-1,4.1, Placements,13
-18,Gandhi Medical College,Secunderabad Telangana,-1,NEET,3565,12000,2300000,5000000,3.8, Placements,31
-19,Mahatma Gandhi Institute of Medical Sciences - [MGIMS],Wardha Maharashtra,MCI NMC ,-1,15928,263160,710000,1000000,4, Academics,25
-20,Amrita School of Medicine,Kochi Kerala,-1,-1,185389,1976800,950000,-1,4.2, Infrastructure,22
-21,KS Hegde Medical Academy - [KSHEMA],Mangalore Karnataka,-1,-1,-1,159500,-1,-1,4.2, Faculty,37
-22,Sikkim Manipal Institute of Medical Sciences - [SMIMS],Gangtok Sikkim,-1,-1,-1,1905000,-1,-1,3.6, Academics,34
-23,Army College of Medical Science - [ACMS],New Delhi Delhi NCR,MCI NMC ,-1,-1,397000,60000,800000,4.3, Faculty,23
-24,PSG Institute of Medical Sciences and Research - [PSGIMSR],Coimbatore Tamil Nadu,-1,-1,2265,450000,800000,1500000,3.8, Academics,43
-25,Mahatma Gandhi Medical College and Research Institute - [MGMCRI],Pondicherry Puducherry,-1,-1,425714,2375000,-1,-1,4.2, Faculty,52
-26,R. G. Kar Medical College and Hospital - [RGKMCH],Kolkata West Bengal,NMC GMC,-1,15973,6500,-1,-1,4.4, Placements,38
-27,K.J. Somaiya Medical College & Research Centre - [KJSMC],Mumbai Maharashtra,-1,-1,32243,1137500,-1,-1,3.7, Placements,44
-28,Dr DY Patil Medical College Hospital and Research Centre - [DYPMC],Pune Maharashtra,MCI NMC ,-1,453629,2950000,380000,1600000,3.8, Social Life,36
-29,Pondicherry Institute of Medical Sciences - [PIMS],Pondicherry Puducherry,-1,-1,1019607,400000,1000000,1300000,4, Faculty,49
-30,Shri Ram Murti Smarak Institute of Medical Science - [SRMS IMS],Bareilly Uttar Pradesh,-1,-1,101256,2042672,400000,800000,3.2, Faculty,38
-31,Bharati Vidyapeeth Deemed University Medical College School of Optometry,Pune Maharashtra,UGC,-1,-1,85000,-1,-1,4.5, Placements,40
-32,Jawaharlal Nehru Medical College - [JNMC],Belagavi Karnataka,MCI MHRD,-1,89512,1920000,360000,1900000,4, Academics,42
-33,D Y Patil Medical College,Kolhapur Maharashtra,MCI,-1,361243,2320000,-1,-1,3.4, Faculty,41
-34,Sri Manakula Vinayagar Medical College and Hospital - [SMVMCH],Pondicherry Puducherry,MCI,-1,155677,400000,-1,-1,4.1, Faculty,48
-35,Ambedkar Institute of Higher Education - [AIHE],Patna Bihar,-1,-1,-1,95775,-1,-1,4.6,-1,-1
-36,Indian Institute of Health Education and Research - [IIHER],Patna Bihar,RCI,-1,-1,130000,-1,-1,-1,-1,-1
-37,MGM Group of Institutions,Patna Bihar,AICTE PCI INC,-1,-1,-1,-1,-1,-1,-1,-1
-38,TISS Tata Institute of Social Sciences,Mumbai Maharashtra,UGC,TISSNET,67.85,79000,2722000,4900000,4, Academics,-1
-39,Lovely Professional University - [LPU],Jalandhar Punjab,NCTE COA PCI BCI ICAR,-1,-1,160000,1219000,10300000,4.2, Infrastructure,-1
-40,SASTRA University,Thanjavur Tamil Nadu,NCTE AICTE UGC DEB,-1,-1,127000,-1,2700000,3.8, Placements,65
-41,PES University - [PESU],Bangalore Karnataka,-1,-1,-1,261200,-1,6500000,3.9, Academics,-1
-42,Amity University,Noida Uttar Pradesh,-1,-1,-1,150000,-1,6175000,4, Infrastructure,-1
-43,Galgotias University - [GU],Greater Noida Uttar Pradesh,-1,-1,-1,80000,540000,15000000,3.8, Academics,-1
-44,DIT University - [DIT],Dehradun Uttarakhand,UGC,-1,-1,147500,-1,5800000,3.9, Infrastructure,-1
-45,Centurion University of Technology and Management - [CUTM],Bhubaneswar Odisha,-1,-1,-1,125000,-1,1360000,3.8, Faculty,-1
-46,MIT World Peace University - [MIT-WPU],Pune Maharashtra,-1,-1,-1,185000,700000,5136000,3.9, Infrastructure,-1
-47,Chandigarh University - [CU],Chandigarh Chandigarh,-1,-1,-1,132500,-1,17000000,4.4, Social Life,-1
-48,Jain University,Bangalore Karnataka,-1,-1,-1,195000,620000,4200000,3.9, Academics,-1
-49,Bharati Vidyapeeth Deemed University Pune,Pune Maharashtra,-1,-1,-1,600000,-1,1900000,3.8, Social Life,-1
-50,ISB&M College of Engineering,Pune Maharashtra,-1,-1,-1,-1,550000,1600000,4, Infrastructure,-1
+Rank,College,City,State,Approval,Exam,Cutoff,First_Year_Fees,Average_Package,Highest_Package,Rating,Best In,National Rank
+1,Christian Medical College - [CMC],Vellore, Tamil Nadu,INC MCI,NEET,758,84330,430000,1000000,4.4, Faculty,3
+2,Kasturba Medical College - [KMC],Manipal,Manipal Karnataka,MCI,NEET,37269,141770,890000,1560000,4.4, Infrastructure,12
+3,Sri Ramachandra Institute of Higher Education and Research,Chennai, Tamil Nadu,UGC,-1,-1,100000,2000000,7000000,3.9, Infrastructure,20
+4,St John's Medical College,Bangalore, Karnataka,MCI,-1,-1,810535,480000,2200000,4.3, Infrastructure,22
+5,Jamia Hamdard University,New,New Delhi Delhi NCR,AICTE MCI UGC,-1,-1,194000,-1,3100000,4.2, Academics,37
+6,Kasturba Medical College - [KMC],Mangalore, Karnataka,MCI,-1,-1,155960,840000,1640000,4.3, Academics,30
+7,JSS Medical College and Hospital - [JSSMCH],Mysore, Karnataka,NBA,NEET,63111,1986400,-1,-1,4, Faculty,39
+8,Christian Medical College - [CMC],Ludhiana, Punjab,MCI,NEET,46034,660000,-1,-1,4.1, Academics,31
+9,Dr DY Patil Vidyapeeth - [DPU],Pune, Maharashtra,AICTE UGC MHRD AIU,-1,-1,2700000,300000,350000,3.8, Social Life,11
+10,Siksha 'O' Anusandhan University - [SOA],Bhubaneswar,Bhubaneswar Odisha,AICTE MCI ICAR UGC NBA,-1,-1,2000000,500000,4600000,4.3, Academics,21
+11,SRM Institute of Science and Technology - [SRMIST],Chennai, Tamil Nadu,UGC,-1,-1,175000,660000,5500000,4, Infrastructure,18
+12,Dayanand Medical College and Hospital - [DMCH],Ludhiana, Punjab,MCI,NEET,51800,445300,-1,-1,4.2, Faculty,29
+13,Saveetha Medical College,Chennai, Tamil Nadu,MCI,-1,-1,2525000,-1,-1,4.2, Infrastructure,46
+14,Ramaiah Medical College,Bangalore, Karnataka,MCI,NEET,14557,2500000,-1,-1,4.3, Faculty,26
+15,Regional Institute of Medical Sciences,Imphal,Imphal Manipur,MCI,NEET,25001,17700,-1,-1,3.7, Academics,95
+16,Kalinga Institute of Industrial Technology - [KIIT],Bhubaneswar,Bhubaneswar Odisha,DCI AICTE INC MCI BCI,NEET,273827,149820,850000,5300000,4.2, Infrastructure,25
+17,Bangalore Medical College and Research Institute - [BMCRI],Bangalore, Karnataka,MCI,NEET,1412,70200,-1,-1,4.1, Placements,13
+18,Gandhi Medical College,Secunderabad, Telangana,-1,NEET,3565,12000,2300000,5000000,3.8, Placements,31
+19,Mahatma Gandhi Institute of Medical Sciences - [MGIMS],Wardha, Maharashtra,MCI NMC ,-1,15928,263160,710000,1000000,4, Academics,25
+20,Amrita School of Medicine,Kochi, Kerala,-1,-1,185389,1976800,950000,-1,4.2, Infrastructure,22
+21,KS Hegde Medical Academy - [KSHEMA],Mangalore, Karnataka,-1,-1,-1,159500,-1,-1,4.2, Faculty,37
+22,Sikkim Manipal Institute of Medical Sciences - [SMIMS],Gangtok, Sikkim,-1,-1,-1,1905000,-1,-1,3.6, Academics,34
+23,Army College of Medical Science - [ACMS],New,New Delhi Delhi NCR,MCI NMC ,-1,-1,397000,60000,800000,4.3, Faculty,23
+24,PSG Institute of Medical Sciences and Research - [PSGIMSR],Coimbatore, Tamil Nadu,-1,-1,2265,450000,800000,1500000,3.8, Academics,43
+25,Mahatma Gandhi Medical College and Research Institute - [MGMCRI],Pondicherry, Puducherry,-1,-1,425714,2375000,-1,-1,4.2, Faculty,52
+26,R. G. Kar Medical College and Hospital - [RGKMCH],Kolkata, West Bengal,NMC GMC,-1,15973,6500,-1,-1,4.4, Placements,38
+27,K.J. Somaiya Medical College & Research Centre - [KJSMC],Mumbai, Maharashtra,-1,-1,32243,1137500,-1,-1,3.7, Placements,44
+28,Dr DY Patil Medical College Hospital and Research Centre - [DYPMC],Pune, Maharashtra,MCI NMC ,-1,453629,2950000,380000,1600000,3.8, Social Life,36
+29,Pondicherry Institute of Medical Sciences - [PIMS],Pondicherry, Puducherry,-1,-1,1019607,400000,1000000,1300000,4, Faculty,49
+30,Shri Ram Murti Smarak Institute of Medical Science - [SRMS IMS],Bareilly, Uttar Pradesh,-1,-1,101256,2042672,400000,800000,3.2, Faculty,38
+31,Bharati Vidyapeeth Deemed University Medical College School of Optometry,Pune, Maharashtra,UGC,-1,-1,85000,-1,-1,4.5, Placements,40
+32,Jawaharlal Nehru Medical College - [JNMC],Belagavi, Karnataka,MCI MHRD,-1,89512,1920000,360000,1900000,4, Academics,42
+33,D Y Patil Medical College,Kolhapur, Maharashtra,MCI,-1,361243,2320000,-1,-1,3.4, Faculty,41
+34,Sri Manakula Vinayagar Medical College and Hospital - [SMVMCH],Pondicherry, Puducherry,MCI,-1,155677,400000,-1,-1,4.1, Faculty,48
+35,Ambedkar Institute of Higher Education - [AIHE],Patna, Bihar,-1,-1,-1,95775,-1,-1,4.6,-1,-1
+36,Indian Institute of Health Education and Research - [IIHER],Patna, Bihar,RCI,-1,-1,130000,-1,-1,-1,-1,-1
+37,MGM Group of Institutions,Patna, Bihar,AICTE PCI INC,-1,-1,-1,-1,-1,-1,-1,-1
+38,TISS Tata Institute of Social Sciences,Mumbai, Maharashtra,UGC,TISSNET,67.85,79000,2722000,4900000,4, Academics,-1
+39,Lovely Professional University - [LPU],Jalandhar, Punjab,NCTE COA PCI BCI ICAR,-1,-1,160000,1219000,10300000,4.2, Infrastructure,-1
+40,SASTRA University,Thanjavur,Thanjavur Tamil Nadu,NCTE AICTE UGC DEB,-1,-1,127000,-1,2700000,3.8, Placements,65
+41,PES University - [PESU],Bangalore, Karnataka,-1,-1,-1,261200,-1,6500000,3.9, Academics,-1
+42,Amity University,Noida,Noida Uttar Pradesh,-1,-1,-1,150000,-1,6175000,4, Infrastructure,-1
+43,Galgotias University - [GU],Greater,Greater Noida Uttar Pradesh,-1,-1,-1,80000,540000,15000000,3.8, Academics,-1
+44,DIT University - [DIT],Dehradun, Uttarakhand,UGC,-1,-1,147500,-1,5800000,3.9, Infrastructure,-1
+45,Centurion University of Technology and Management - [CUTM],Bhubaneswar,Bhubaneswar Odisha,-1,-1,-1,125000,-1,1360000,3.8, Faculty,-1
+46,MIT World Peace University - [MIT-WPU],Pune, Maharashtra,-1,-1,-1,185000,700000,5136000,3.9, Infrastructure,-1
+47,Chandigarh University - [CU],Chandigarh,Chandigarh,-1,-1,-1,132500,-1,17000000,4.4, Social Life,-1
+48,Jain University,Bangalore, Karnataka,-1,-1,-1,195000,620000,4200000,3.9, Academics,-1
+49,Bharati Vidyapeeth Deemed University Pune,Pune, Maharashtra,-1,-1,-1,600000,-1,1900000,3.8, Social Life,-1
+50,ISB&M College of Engineering,Pune, Maharashtra,-1,-1,-1,-1,550000,1600000,4, Infrastructure,-1
